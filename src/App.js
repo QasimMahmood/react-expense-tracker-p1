@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
     <div>
-        Surge Application Expense Tracker 
+       <h1> Surge Application Expense Tracker </h1>
     </div>
   );
 }
