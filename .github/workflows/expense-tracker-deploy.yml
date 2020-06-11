@@ -38,4 +38,4 @@ jobs:
       run: npm install -g surge
       
     - name: deploying on surge
-      run: surge ./build react-expense-tracker-p1.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./build http://first-bootcamp-react-app.surge.sh/ --token ${{ secrets.SURGE_TOKEN }}
