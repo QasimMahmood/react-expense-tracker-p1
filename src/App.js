@@ -1,11 +1,11 @@
 import React from 'react';
-
+import { header } from './Components/header';
 import './App.css';
 
 function App() {
   return (
     <div>
-       <h1> Surge Application Expense Tracker Again </h1>
+       <header />
     </div>
   );
 }
