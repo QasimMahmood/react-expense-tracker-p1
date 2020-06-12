@@ -3,6 +3,7 @@ import { Title } from './Components/Title';
 import { Balance } from './Components/Balance';
 import { IncomeExpenses } from './Components/IncomeExpenses';
 import { TransactionList } from './Components/TransactionList';
+import { AddTransaction } from './Components/AddTransaction';
 
 import './App.css';
 
@@ -14,6 +15,7 @@ function App() {
          <Balance />
          <IncomeExpenses />
          <TransactionList />
+         <AddTransaction />
        </div>
     </div>
   );
