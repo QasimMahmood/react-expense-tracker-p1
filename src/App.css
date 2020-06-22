@@ -6,10 +6,16 @@
 
 * {
   box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
 }
 
 body {
-  background-color: #f7f7f7;
+  background-image: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.8;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,11 +28,19 @@ body {
 .container {
   margin: 30px auto;
   width: 350px;
+  border: 1px solid white;
+  background-color: black;
+  padding: 14px ;
+  color: white;
 }
 
 h1 {
   letter-spacing: 1px;
   margin: 0;
+}
+h2{
+  text-align: center;
+  
 }
 
 h3 {
@@ -38,6 +52,7 @@ h3 {
 h4 {
   margin: 0;
   text-transform: uppercase;
+  color: black;
 }
 
 .inc-exp-container {
@@ -89,7 +104,7 @@ input[type='number'] {
 
 .btn {
   cursor: pointer;
-  background-color: #9c88ff;
+  background-color: #008000;
   box-shadow: var(--box-shadow);
   color: #fff;
   border: 0;
@@ -148,4 +163,7 @@ input[type='number'] {
 
 .list li:hover .delete-btn {
   opacity: 1;
+}
+label{
+  font-weight: bolder;
 }
